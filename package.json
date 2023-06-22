@@ -46,5 +46,9 @@
     "mocha": "^10.2.0",
     "nodemon": "^1.12.1",
     "supertest": "^3.0.0"
-  }
+  },
+  "puppeteerArgs": [
+    "--no-sandbox",
+    "--disable-setuid-sandbox"
+  ]
 }
